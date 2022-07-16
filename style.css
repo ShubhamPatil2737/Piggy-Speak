@@ -66,3 +66,19 @@ textarea{
 #pig-img{
     width: 150px;
 }
+.footer {
+
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    padding-top: 0.125rem;
+    
+}
+
+.footer-text {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: black;
+    font-size: larger;
+}
