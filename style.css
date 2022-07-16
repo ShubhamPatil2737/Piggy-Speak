@@ -1,0 +1,68 @@
+:root{
+    --primary-color:#f06292;
+    --grey-color:#bdbdbd;
+}
+body{
+    margin: 0px;
+    background-color:var(--primary-color);
+}
+.head-container{
+    background-color: var(--primary-color);
+    color: black;
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    padding: 2rem;
+    font-size: larger;
+    display: block;
+
+}
+ 
+textarea{
+    display: block;
+    width: 500px;
+    height: 100px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 2px solid gray;
+    background-color: var(--grey-color);
+    font-size: 30px;
+
+}
+.output-txt{
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 50px;
+  }
+  #output{
+      border: 2px solid gray ;
+      display: block;
+      width: 500px;
+      height: 100px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: var(--grey-color);
+      font-size: 30px;
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#btn-translate{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 30%;
+    border: 2px solid black;
+}
+#btn-translate:hover{
+    background-color: black;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+#pig-img{
+    width: 150px;
+}
